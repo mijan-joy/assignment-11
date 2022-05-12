@@ -21,7 +21,7 @@ const AddItem = () => {
 
     const item = { name, supplier, email, price, quantity, description, img };
 
-    fetch('http://localhost:5000/add-item',{
+    fetch('https://fathomless-hollows-57666.herokuapp.com/add-item',{
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

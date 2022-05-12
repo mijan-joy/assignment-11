@@ -13,7 +13,7 @@ const ManageInventories = () => {
 
   useEffect(() => {
     fetch(
-      `http://localhost:5000/cars?page=${page}&size=${size}`
+      `https://fathomless-hollows-57666.herokuapp.com/cars?page=${page}&size=${size}`
     )
       .then((res) => res.json())
       .then((data) => setCars(data));

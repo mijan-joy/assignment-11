@@ -15,12 +15,12 @@ const Inventory = () => {
 
   
   useEffect(() => {
-    fetch(`http://localhost:5000/car/${id}`)
+    fetch(`https://fathomless-hollows-57666.herokuapp.com/car/${id}`)
       .then((res) => res.json())
       .then((data) => setCar(data));
   }, [car]);
 
-  // const { name, price, quantity, description, img, supplier } = car;
+  const { name, price, quantity, description, img, supplier } = car;
   const handleDeliver = (e) => {
     e.preventDefault();
     if (newQuantity > 0) {
@@ -30,7 +30,7 @@ const Inventory = () => {
 
     const updatedQuantity = { quantity: localCarId - 1 };
 
-    const url = `http://localhost:5000/car/${id}`;
+    const url = `https://fathomless-hollows-57666.herokuapp.com/car/${id}`;
     axios.put(url, updatedQuantity).then((response) => {
       console.log("Delivered the car successfully!");
     });
@@ -44,7 +44,7 @@ const Inventory = () => {
     setNewQuantity(stockQuantity + localCarId);
     const UpdatedStockQuantity = { quantity: stockQuantity + localCarId };
 
-    const url = `http://localhost:5000/car/${id}`;
+    const url = `https://fathomless-hollows-57666.herokuapp.com/car/${id}`;
     axios.put(url, UpdatedStockQuantity).then((response) => {
       
       

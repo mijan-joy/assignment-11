@@ -5,7 +5,7 @@ const useCars = () => {
 const [cars, setCars] = useState([]);
 
 useEffect( () =>{
-    fetch('http://localhost:5000/cars')
+    fetch('https://fathomless-hollows-57666.herokuapp.com/cars')
     .then(response => response.json())
     .then(data => setCars(data));
 }, []);

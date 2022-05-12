@@ -16,7 +16,7 @@ const MyItems = () => {
   useEffect(() => {
     const getMyCars = async () => {
       const email = user?.email;
-      const url = `http://localhost:5000/cars?email=${email}`;
+      const url = `https://fathomless-hollows-57666.herokuapp.com/cars?email=${email}`;
       try {
         const { data } = await axiosPrivate.get(url);
         setMyCars(data);
@@ -35,7 +35,7 @@ const MyItems = () => {
   const deleteMyItem = (id) => {
     const proceed = window.confirm("Are You sure to DELETE?");
     if (proceed) {
-      const url = `http://localhost:5000/carDelete/${id}`;
+      const url = `https://fathomless-hollows-57666.herokuapp.com/carDelete/${id}`;
       axios.post(url).then((response) => {
         if (response.data.deletedCount > 0) {
           const remaining = myCars.filter((myCar) => myCar._id !== id);

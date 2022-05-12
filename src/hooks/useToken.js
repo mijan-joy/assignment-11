@@ -8,7 +8,7 @@ const useToken = (user) => {
       const email = user?.email;
       if (email) {
         const { data } = await axios.post(
-          "http://localhost:5000/login",
+          "https://fathomless-hollows-57666.herokuapp.com/login",
           {
             email,
           }
