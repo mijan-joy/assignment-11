@@ -1,0 +1,10 @@
+.bg-footer {
+  background-color: #00000062;
+}
+.bg-footer a {
+  color: #d4d4d4;
+  text-decoration: none;
+}
+.bg-footer a:hover {
+  color: red;
+}

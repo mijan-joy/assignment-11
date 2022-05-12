@@ -1,0 +1,11 @@
+.btn-pagination {
+  background-color: transparent;
+  border: 1px solid brown;
+  padding: 5px 10px;
+  color: brown;
+  font-weight: bold;
+}
+.selected-page {
+  background-color: rgb(197, 32, 32);
+  color: white;
+}

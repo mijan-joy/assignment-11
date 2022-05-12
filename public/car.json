@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "name": "Acura Rsx",
+    "supplier": "Acura",
+    "email": "mmrsm46@gmail.com",
+    "price": 30000,
+    "quantity": 30,
+    "description": "Like most Acura vehicles, the RSX boasts a high level of refinement as well as a reputation for above-average reliability, competitive pricing and strong resale value. In road tests, our editors found the RSX's main performance strengths to be nimble handling and responsive steering.",
+    "img": "https://i.ibb.co/f2Czz2L/Acura-Rsx.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Toyota Corolla",
+    "supplier": "Toyota",
+    "email": "mmrsm46@gmail.com",
+    "price": 45000,
+    "quantity": 15,
+    "description": "The Toyota Corolla was the world’s best-selling car in 2019, and the dependable Japanese saloon continued to occupy the top spot with over 1.1 million sales in 2020. Sales dropped by eight per cent year-on-year, but the Corolla maintained its hold over the global car market, fending off a number of SUVs nipping at its heels. Much of this success is due to the car’s popularity in the US, despite the nation’s waning interest in saloons.",
+    "img": "https://i.ibb.co/2SFt7q9/Toyota-Corolla.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Lexus IS F",
+    "supplier": "Lexus",
+    "email": "mmrsm46@gmail.com",
+    "price": 35000,
+    "quantity": 16,
+    "description": "The Lexus IS F debuted at the North American International Auto Show on 8 January 2007. The vehicle features a 5.0 L direct-injected V8 producing 416 SAE hp (423 PS, 311 kW) at 6,600 rpm, while peak torque is 371 ft⋅lbf (503 N⋅m) at 5,200 rpm.",
+    "img": "https://i.ibb.co/X4DgyK4/Lexus-is-f.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Hyundai santa fe sport",
+    "supplier": "Hundai",
+    "email": "mmrsm46@gmail.com",
+    "price": 39000,
+    "quantity": 13,
+    "description": "Hyundai's five-passenger midsized SUV is roomy and comfortable, with a good ride and quiet interior. Power comes from a responsive 190-hp, 2.4-liter four-cylinder mated to a smooth and responsive six-speed automatic. We got a very good 23 mpg overall with this drivetrain. A 2.0-liter turbocharged four-cylinder is also available.",
+    "img": "https://i.ibb.co/BPjVYBK/Hyundai-santa-fe-sport.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Lexus GS 450h",
+    "supplier": "Lexus",
+    "email": "mmrsm46@gmail.com",
+    "price": 38000,
+    "quantity": 0,
+    "description": "Lexus says the GS 450h is the quickest GS you can buy, but our tests show it's slightly slower than the standard car. Its handling is intuitive and well balanced, though it lacks the outright grip of F Sport-equipped cars. Still, this is a solid performer with rewarding driving character.",
+    "img": "https://i.ibb.co/N7nMjY2/Lexus-GS-450h.jpg"
+  },
+  {
+    "id": "6",
+    "name": "MAZDA CX",
+    "supplier": "Mazda",
+    "email": "mmrsm46@gmail.com",
+    "price": 36000,
+    "quantity": 20,
+    "description": "With its exquisitely sculpted exterior and sophisticated interior space, the 2022 Mazda CX-5 feels like it’s tailored to you. Combined with our now standard i-Activ AWD® and increased horsepower availablefor turbo models,5 this CUV provides an elevated driving experience that invigorates both body and mind.",
+    "img": "https://i.ibb.co/2k8LpjX/MAZDA-CX.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Mercediz Benz",
+    "supplier": "Mercedes",
+    "email": "mmrsm46@gmail.com",
+    "price": 42000,
+    "quantity": 22,
+    "description": "Mercedes-Benz, commonly referred to as Mercedes, is a German luxury automotive brand. Both Mercedes-Benz and Mercedes-Benz AG are headquartered in Stuttgart, Baden-Württemberg, Germany. Mercedes-Benz produces consumer luxury vehicles and commercial vehicles.",
+    "img": "https://i.ibb.co/tZsH4C3/Mercediz-Benz.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Taycan",
+    "supplier": "Porsche",
+    "email": "mmrsm46@gmail.com",
+    "price": 46000,
+    "quantity": 0,
+    "description": "The new Taycan GTS now charges the Porsche electric driving experience with even more intense emotions. The Taycan is uncompromising and perfect for the everyday. Striking proportions, timeless and instantly recognisable design. With a spacious interior and two luggage compartments, providing comfort and convenience for four.",
+    "img": "https://i.ibb.co/jb1NrBb/Taycan.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Range Rover",
+    "supplier": "Land Rover",
+    "email": "mmrsm46@gmail.com",
+    "price": 44000,
+    "quantity": 0,
+    "description": "Range Rover is a British brand of predominantly four-wheel drive, off-road capable vehicles, owned by multinational car manufacturer Jaguar Land Rover, since 2008 a subsidiary of India's Tata Motors. JLR currently builds Land Rovers in Brazil, China, India, Slovakia, and the United Kingdom.",
+    "img": "https://i.ibb.co/17S5gy9/Range-Rover.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Toyota Avalon Hybrid",
+    "supplier": "Toyota",
+    "email": "mmrsm46@gmail.com",
+    "price": 48000,
+    "quantity": 25,
+    "description": "Hybrid Drivetrain and 2.5L Dynamic Force Engine. With a manufacturer-estimated rating of 44 combined mpg, * Avalon Hybrid delivers amplified fun. High-Quality Ride- Experience a drive that’s dedicated to quality and craftsmanship.",
+    "img": "https://i.ibb.co/BB3pkBh/Toyota-avalon-hybrid.jpg"
+  }
+]
